@@ -49,6 +49,12 @@ namespace Exe4_089
             Console.WriteLine("\n Stack is empty");
             top = top.next;
         }
+
+        public void display()
+        {
+            Node tmp;
+
+        }
     }
 
 }
