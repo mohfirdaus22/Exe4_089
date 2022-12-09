@@ -21,6 +21,12 @@ namespace Exe4_089
     {
         Node top;
 
+        public Stacks()
+        {
+            top = null;
+        }
+
+
     }
 
 }
