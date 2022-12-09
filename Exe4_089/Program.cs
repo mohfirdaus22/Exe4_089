@@ -46,7 +46,7 @@ namespace Exe4_089
         }
         public void pop()
         {
-            Console.WriteLine("\n Stack is empty");
+            Console.WriteLine("\n The popped element is: " + top.info);
             top = top.next;
         }
 
@@ -54,6 +54,15 @@ namespace Exe4_089
         {
             Node tmp;
 
+            if (empty())
+                Console.WriteLine("\nStacks is empty");
+            else
+            {
+                for (tmp = top; tmp != null; tmp = tmp.next)
+                {
+                    Console.WriteLine(tmp.info);
+                }
+            }
         }
     }
 
