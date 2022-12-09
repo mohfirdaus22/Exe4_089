@@ -44,7 +44,11 @@ namespace Exe4_089
             Console.WriteLine("\n" + element + "pushed");
 
         }
-
+        public void pop()
+        {
+            Console.WriteLine("\n Stack is empty");
+            top = top.next;
+        }
     }
 
 }
