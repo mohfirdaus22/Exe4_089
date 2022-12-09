@@ -26,6 +26,14 @@ namespace Exe4_089
             top = null;
         }
 
+        bool empty()
+        {
+            if (top == null)
+                return (true);
+            else
+                return (false);
+        }
+
 
     }
 
