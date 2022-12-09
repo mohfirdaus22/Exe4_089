@@ -62,6 +62,16 @@ namespace Exe4_089
                 {
                     Console.WriteLine(tmp.info);
                 }
+                Console.WriteLine();
+
+            }
+            static void Main(string[] args)
+            {
+                Stacks s = new Stacks();
+                while (true)
+                {
+
+                }
             }
         }
     }
